@@ -3,10 +3,10 @@ import { useState } from "react";
 
 export default function Home() {
     const images = [
-        "./img/IMG_6851.JPG",
-        "./img/IMG_6290.jpg",
-        "./img/IMG_8503.JPG",
-        "./img/IMG_7624.jpg"
+        "../img/IMG_6851.JPG",
+        "../img/IMG_6290.jpg",
+        "../img/IMG_8503.JPG",
+        "../img/IMG_7624.jpg"
     ];
 
     const [currSlide, setCurrSlide] = useState(0);
